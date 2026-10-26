@@ -11,7 +11,7 @@ body {
 .calculadora {
   width: 340px;
   padding: 25px 20px 20px;
-  background-color: #5b5f5c;
+  background-color: #383838;
   border: 1px solid #454946;
   border-radius: 24px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
@@ -21,7 +21,7 @@ body {
   height: 60px;
   margin-bottom: 20px;
   padding: 0 12px;
-  background-color: #dfe1d6;
+  background-color: #878F80;
   border: 3px solid #3e423f;
   border-radius: 8px;
   color: #242725;
@@ -35,14 +35,14 @@ body {
 .teclas {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  gap: 12px;
 }
 
 button {
   height: 60px;
   border: none;
-  border-radius: 12px;
-  background-color: #292d2b;
+  border-radius: 50px;
+  background-color: #6F6F70;
   color: #f1f2ed;
   font-size: 20px;
   cursor: pointer;
